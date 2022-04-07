@@ -1,0 +1,9 @@
+.footer__author {
+  max-width: 200px;
+  min-height: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 114%;
+}
+
