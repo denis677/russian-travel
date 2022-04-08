@@ -6,10 +6,7 @@
 
 @media all and (max-width: 500px) {
   .footer__container {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     max-width: 186px;
-    min-height: 310px;
   }
 }

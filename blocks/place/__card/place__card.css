@@ -1,6 +1,5 @@
 .place__card {
   max-width: 984px;
-  min-height: 660px;
   display: grid;
   grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
   grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
@@ -13,13 +12,9 @@
   margin-bottom: 0;
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1105px) {
   .place__card {
     max-width: 928px;
-    min-height: 640px;
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
-    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     column-gap: 32px;
     row-gap: 48px;
     margin-bottom: 5rem;
@@ -29,10 +24,6 @@
 @media all and (max-width: 960px) {
   .place__card {
     max-width: 720px;
-    min-height: 581px;
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
-    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     column-gap: 28px;
     row-gap: 3rem;
     margin-bottom: 73px;
@@ -42,8 +33,6 @@
 @media all and (max-width: 750px) {
   .place__card {
     max-width: 500px;
-    min-height: 600px;
-    display: grid;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content);
     margin-bottom: 50px;
@@ -54,8 +43,6 @@
 @media all and (max-width: 500px) {
   .place__card {
     max-width: 320px;
-    min-height: 1042px;
-    display: grid;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content);
     margin-bottom: 50px;

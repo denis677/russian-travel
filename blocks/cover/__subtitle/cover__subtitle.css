@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1105px) {
   .cover__subtitle {
     max-width: 360px;
     min-height: 66px;
