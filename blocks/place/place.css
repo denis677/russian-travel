@@ -1,0 +1,43 @@
+.place {
+  max-width: 984px;
+  margin-top: 5.75rem;
+  margin-left: 9.25rem;
+  margin-right: 9.25rem;
+}
+
+@media all and (max-width: 1105px) {
+  .place {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .place {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .place {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .place {
+      max-width: 500px;
+      margin-top: 64px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .place {
+      max-width: 320px;
+    }
+}
