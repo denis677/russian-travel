@@ -1,0 +1,34 @@
+.photo-grid__image {
+  max-width: 284px;
+}
+
+@media all and (max-width: 1155px) {
+  .photo-grid__image {
+    max-width: 100%;
+    width: 352px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .photo-grid__image {
+    width: 288px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .photo-grid__image {
+    width: 352px;
+  }
+}
+
+@media all and (max-width: 508px) {
+  .photo-grid__image {
+    max-width: 288px;
+  }
+}
+
+@media all and (max-width: 500px) {
+    .photo-grid__image {
+    max-width: 288px;
+  }
+}
